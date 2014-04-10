@@ -1,3 +1,9 @@
+---
+name: 5 分钟上手 Sea.js
+sort: 2
+---
+
+
 [Permalink](http://seajs.org/docs/ "Permalink to A Module Loader for the Web")
 
 # A Module Loader for the Web

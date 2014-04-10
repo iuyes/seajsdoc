@@ -1,3 +1,8 @@
+---
+name: Sea.js 的调试接口
+sort: 1
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/263 "Permalink to Sea.js 的调试接口 · Issue #263 · seajs/seajs · GitHub")
 
 # Sea.js 的调试接口 · Issue #263 · seajs/seajs · GitHub

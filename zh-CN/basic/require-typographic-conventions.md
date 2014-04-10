@@ -1,3 +1,8 @@
+---
+name: require 书写约定
+sort: 4
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/259 "Permalink to require 书写约定 · Issue #259 · seajs/seajs · GitHub")
 
 # require 书写约定 · Issue #259 · seajs/seajs · GitHub

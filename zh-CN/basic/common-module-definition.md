@@ -1,3 +1,7 @@
+---
+name: CMD 模块定义规范
+sort: 2
+---
 
 [Permalink](https://github.com/seajs/seajs/issues/242 "Permalink to CMD 模块定义规范 · Issue #242 · seajs/seajs · GitHub")
 

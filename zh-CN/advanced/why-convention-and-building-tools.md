@@ -1,3 +1,8 @@
+---
+name: 为什么要有约定和构建工具
+sort: 2
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/426 "Permalink to 为什么要有约定和构建工具 · Issue #426 · seajs/seajs · GitHub")
 
 # 为什么要有约定和构建工具 · Issue #426 · seajs/seajs · GitHub

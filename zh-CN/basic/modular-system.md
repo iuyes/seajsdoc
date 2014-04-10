@@ -1,3 +1,9 @@
+---
+name: 模块系统 
+sort: 1
+---
+
+
 [Permalink](https://github.com/seajs/seajs/issues/240 "Permalink to 模块系统 · Issue #240 · seajs/seajs · GitHub")
 
 # 模块系统 · Issue #240 · seajs/seajs · GitHub

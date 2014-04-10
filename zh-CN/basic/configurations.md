@@ -1,3 +1,8 @@
+---
+name: 配置
+sort: 6
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/262 "Permalink to 配置 · Issue #262 · seajs/seajs · GitHub")
 
 # 配置 · Issue #262 · seajs/seajs · GitHub

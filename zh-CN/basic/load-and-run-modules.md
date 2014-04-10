@@ -1,3 +1,8 @@
+---
+name: 模块的加载启动
+sort: 5
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/260 "Permalink to 模块的加载启动 · Issue #260 · seajs/seajs · GitHub")
 
 # 模块的加载启动 · Issue #260 · seajs/seajs · GitHub

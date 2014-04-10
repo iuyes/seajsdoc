@@ -1,3 +1,7 @@
+---
+name: API 快速参考
+sort: 3
+---
 
 [Permalink](https://github.com/seajs/seajs/issues/266 "Permalink to API 快速参考 · Issue #266 · seajs/seajs · GitHub")
 

@@ -1,3 +1,8 @@
+---
+name: 模块标识
+sort: 3
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/258 "Permalink to 模块标识 · Issue #258 · seajs/seajs · GitHub")
 
 # 模块标识

@@ -1,3 +1,7 @@
+---
+name: 从 CommonJS 到 Sea.js
+sort: 2
+---
 
 [Permalink](https://github.com/seajs/seajs/issues/269 "Permalink to 从 CommonJS 到 Sea.js · Issue #269 · seajs/seajs · GitHub")
 

@@ -1,3 +1,8 @@
+---
+name: 如何参与开发
+sort: 5
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/276 "Permalink to 如何参与开发 · Issue #276 · seajs/seajs · GitHub")
 
 # 如何参与开发 · Issue #276 · seajs/seajs · GitHub

@@ -1,3 +1,8 @@
+---
+name: 与 RequireJS 的异同
+sort: 4
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/277 "Permalink to 与 RequireJS 的异同 · Issue #277 · seajs/seajs · GitHub")
 
 # 与 RequireJS 的异同 · Issue #277 · seajs/seajs · GitHub

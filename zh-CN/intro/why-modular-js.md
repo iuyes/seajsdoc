@@ -1,3 +1,8 @@
+---
+name: 前端模块化开发的价值
+sort: 1
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/547 "Permalink to 前端模块化开发的价值 · Issue #547 · seajs/seajs · GitHub")
 
 # 前端模块化开发的价值 · Issue #547 · seajs/seajs · GitHub

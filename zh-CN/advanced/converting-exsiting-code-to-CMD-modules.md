@@ -1,3 +1,8 @@
+---
+name: 如何改造现有文件为 CMD 模块
+sort: 4
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/971 "Permalink to 如何改造现有文件为 CMD 模块 · Issue #971 · seajs/seajs · GitHub")
 
 # 如何改造现有文件为 CMD 模块 · Issue #971 · seajs/seajs · GitHub

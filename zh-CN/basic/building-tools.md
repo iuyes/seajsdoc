@@ -1,3 +1,8 @@
+---
+name: 标准构建
+sort: 7
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/538 "Permalink to 构建工具 · Issue #538 · seajs/seajs · GitHub")
 
 ## 标准构建

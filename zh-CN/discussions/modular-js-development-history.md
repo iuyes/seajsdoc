@@ -1,3 +1,8 @@
+---
+name: 前端模块化开发那点历史
+sort: 1
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/588 "Permalink to 前端模块化开发那点历史 · Issue #588 · seajs/seajs · GitHub")
 
 # 前端模块化开发那点历史 · Issue #588 · seajs/seajs · GitHub

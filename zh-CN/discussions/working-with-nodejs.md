@@ -1,3 +1,8 @@
+---
+name: 与 Node.js 兼容
+sort: 3
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/275 "Permalink to 与 Node.js 兼容 · Issue #275 · seajs/seajs · GitHub")
 
 # 与 Node.js 兼容 · Issue #275 · seajs/seajs · GitHub

@@ -1,3 +1,8 @@
+---
+name: ID 和路径匹配原则
+sort: 3
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/930 "Permalink to ID 和路径匹配原则 · Issue #930 · seajs/seajs · GitHub")
 
 # ID 和路径匹配原则 · Issue #930 · seajs/seajs · GitHub

@@ -1,3 +1,8 @@
+---
+name: 插件开发指南
+sort: 6
+---
+
 [Permalink](https://github.com/seajs/seajs/issues/264 "Permalink to 插件开发指南 · Issue #264 · seajs/seajs · GitHub")
 
 # 插件开发指南 · Issue #264 · seajs/seajs · GitHub

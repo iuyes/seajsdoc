@@ -1,5 +1,5 @@
 ---
 root: true
-name: 基础
+name: Basic
 sort: 2
 ---

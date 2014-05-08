@@ -1,30 +1,30 @@
 ---
-name: API 快速参考
+name: API Quick Reference
 sort: 3
 ---
 
-[Permalink](https://github.com/seajs/seajs/issues/266 "Permalink to API 快速参考 · Issue #266 · seajs/seajs · GitHub")
+[Permalink](https://github.com/seajs/seajs/issues/266 "Permalink to API Quick Reference · Issue #266 · seajs/seajs · GitHub")
 
-# API 快速参考 · Issue #266 · seajs/seajs · GitHub
+# API Quick Reference · Issue #266 · seajs/seajs · GitHub
 
-该页面列举了 Sea.js 的常用 API。只要掌握这些用法，就可以娴熟地进行模块化开发。
+We will discuss some common API in `Sea.js`. After learning them, you can do modular development smoothly.
 
 * * *
 
 ### seajs.config
 
-用来对 Sea.js 进行配置。
+To set the configuration for `Sea.js`
 
 
     seajs.config({
 
-      // 设置路径，方便跨目录调用
+      // Set up path for crossing folder usage.
       paths: {
         'arale': 'https://a.alipayobjects.com/arale',
         'jquery': 'https://a.alipayobjects.com/jquery'
       },
 
-      // 设置别名，方便调用
+      // Set up alias for easily calling
       alias: {
         'class': 'arale/class/1.0.0/class',
         'jquery': 'jquery/jquery/1.10.1/jquery'
@@ -33,75 +33,76 @@ sort: 3
     });
 
 
-更多配置项请参考：[#262][1]
+For more configuration options see [#262][1]
 
 ### seajs.use
 
-用来在页面中加载一个或多个模块。
+To load one or more modules into the page.
 
 
-    // 加载一个模块
+    // Load a module
     seajs.use('./a');
 
-    // 加载一个模块，在加载完成时，执行回调
+    // Load a module and run callback after loading
     seajs.use('./a', function(a) {
       a.doSomething();
     });
 
-    // 加载多个模块，在加载完成时，执行回调
+    // Load more modules and run callbacks after loading
     seajs.use(['./a', './b'], function(a, b) {
       a.doSomething();
       b.doSomething();
     });
 
 
-更多用法请参考：[#260][2]
+For more see [#260][1]
 
 ### define
 
-用来定义模块。Sea.js 推崇一个模块一个文件，遵循统一的写法：
+To define a module. `Sea.js` recommend one-module-one-file standard:
 
 
     define(function(require, exports, module) {
 
-      // 模块代码
+      // Module implementation
 
     });
 
 
-也可以手动指定模块 id 和依赖，详情请参考：[#242][3]
-`require`, `exports` 和 `module` 三个参数可酌情省略，具体用法如下。
+You can also set module id and dependencies. See more [#242][3]
+
+`require`, `exports` and `module` can be ignored sometimes.
 
 ### require
 
-`require` 用来获取指定模块的接口。
+Use `require` to get other module's interface.
 
 
     define(function(require) {
 
-      // 获取模块 a 的接口
+      // Get interface of module a
       var a = require('./a');
 
-      // 调用模块 a 的方法
+      // Call method of module a
       a.doSomething();
     });
 
 
-注意，`require` 只接受字符串直接量作为参数，详细约定请阅读：[#259][4]
+NOTES: `require` only accept string value as the parameter. See more [#259][4]
 
 ### require.async
 
-用来在模块内部异步加载一个或多个模块。
+`require.async` used to load one or more modules inside a module asynchronously.
 
 
     define(function(require) {
 
-      // 异步加载一个模块，在加载完成时，执行回调
+      // Load a module asynchronously and run callback after loading
       require.async('./b', function(b) {
         b.doSomething();
       });
 
-      // 异步加载多个模块，在加载完成时，执行回调
+      // Load many modules asynchronously and run callback after loading
       require.async(['./c', './d'], function(c, d) {
         c.doSomething();
         d.doSomething();
@@ -110,34 +111,34 @@ sort: 3
     });
 
 
-详细说明请参考：[#242][3]
+See more: [#242][3]
 
 ### exports
 
-用来在模块内部对外提供接口。
+Used to expose interface in the module.
 
 
     define(function(require, exports) {
 
-      // 对外提供 foo 属性
+      // Expose foo property
       exports.foo = 'bar';
 
-      // 对外提供 doSomething 方法
+      // Expose doSomething method
       exports.doSomething = function() {};
 
     });
 
 
-详细说明请参考：[#242][3]
+See more [#242][3]
 
 ### module.exports
 
-与 `exports` 类似，用来在模块内部对外提供接口。
+Similar as `exports`, used to expose interface in the module.
 
 
     define(function(require, exports, module) {
 
-      // 对外提供接口
+      // Expose interface
       module.exports = {
         name: 'a',
         doSomething: function() {};
@@ -145,12 +146,11 @@ sort: 3
 
     });
 
-
-`module.exports` 与 `exports` 的区别，以及详细说明请参考：[#242][3]
+The difference between `module.exports` and `exports` see [#242][3]
 
 * * *
 
-以上 7 个接口是最常用的，要牢记于心。
+These 7 methods are most useful, keep them in mind.
 
    [1]: https://github.com/seajs/seajs/issues/262 (配置)
    [2]: https://github.com/seajs/seajs/issues/260 (模块的加载启动)

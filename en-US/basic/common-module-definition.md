@@ -1,11 +1,11 @@
 ---
-name: CMD 模块定义规范
+name: CMD Module Definition Specification
 sort: 2
 ---
 
 [Permalink](https://github.com/seajs/seajs/issues/242 "Permalink to CMD 模块定义规范 · Issue #242 · seajs/seajs · GitHub")
 
-# CMD 模块定义规范 · Issue #242 · seajs/seajs · GitHub
+# CMD Module Definition Specification · Issue #242 · seajs/seajs · GitHub
 
 在 Sea.js 中，所有 JavaScript 模块都遵循 CMD（[Common Module Definition][1]） 模块定义规范。该规范明确了模块的基本书写格式和基本交互规则。
 

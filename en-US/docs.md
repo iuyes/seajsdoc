@@ -6,7 +6,7 @@ sort: 0
 
 ## Documents
 
-This is the offical documents of [Sea.js](http://seajs.org). The basic documents is recommended to read in sequence. You can keep reading the advanced documents if interested. Feel free to ask ask question and discuss here: [community](https://github.com/seajs/seajs/issues/271)
+This is the offical documents of [Sea.js](http://seajs.org). The basic documents is recommended to read in sequence. You can keep reading the advanced documents if interested. Feel free to ask ask question and discuss here: [community](/community)
 
 ### Quickstart
 

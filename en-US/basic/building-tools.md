@@ -1,61 +1,56 @@
 ---
-name: 标准构建
+name: Standard building
 sort: 7
 ---
 
 [Permalink](https://github.com/seajs/seajs/issues/538 "Permalink to 构建工具 · Issue #538 · seajs/seajs · GitHub")
 
-## 标准构建
+## Standard building
 
-如果项目遵循推荐的标准目录结构：
+If the project follows the standard structure:
 
     
     foo-module/
-      |-- dist                    存放构建好的文件
-      |-- src                     存放 js、css 等源码
+      |-- dist                    For the builded files
+      |-- src                     For the source code of js and css
       |     |-- foo.js
       |     `-- style.css
-      `-- package.json      模块信息   
+      `-- package.json      module information
     
 
-那么构建很简单。首先安装 spm 工具：
+then the building is very easy. Firstly, install `spm` tool:
 
     
     $ npm install spm -g
     $ npm install spm-build -g
     
 
-然后运行构建命令：
+then run building command:
 
     
     $ cd foo-module
     $ spm build
     
 
-这样，就会根据 `package.json` 中的信息，将文件自动构建到 `dist` 目录下。构建后，还需要将 dist 目录下的文件部署到 `sea-
-modules` 目录中，比如 examples 中的 `make deploy` 命令：[Makefile](https://github.com/sea
-js/examples/blob/master/static/hello/Makefile)
+It will build source code to `dist` folder based on `package.json`. After building we need to deploy files in `dist` to `sea-modules` folder, such as `make deploy` command [Makefile](https://github.com/seajs/examples/blob/master/static/hello/Makefile) in examples.
 
-详细可参考 [http://docs.spmjs.org/](http://docs.spmjs.org/)
+See more [http://docs.spmjs.org/](http://docs.spmjs.org/)
 
-推荐将 [seajs/examples](https://github.com/seajs/examples) clone 到本地，实际操作一下就清楚。
+You can clone and try [seajs/examples](https://github.com/seajs/examples) locally.
 
-## 自定义构建
+## Customized Building
 
-如果标准构建无法满足需求，可以直接使用 Grunt 来完成。Grunt
-是一个非常优秀的构建工具，详见：[http://gruntjs.com/](http://gruntjs.com/)
+If standard building is not enough, you can use Grunt. [http://gruntjs.com/](http://gruntjs.com/)
 
-利用 Grunt 来构建 CMD 模块需要使用到以下 Grunt Tasks：
+Using Grunt to build CMD module need these Grunt tasks:
 
   * [grunt-cmd-transport](https://github.com/spmjs/grunt-cmd-transport)
   * [grunt-cmd-concat](https://github.com/spmjs/grunt-cmd-concat)
 
-这一块真的很简单，只要你熟悉 Grunt，因此先阅读 Grunt 的文档吧，然后有任何问题，欢迎回复。
+This part is very easy. Just get familar with Grunt first.
 
-推荐几篇社区贡献的文章：
+Recommended articles:
 
   * [CMD 模块构建，从认识 Grunt 开始](https://github.com/seajs/seajs/issues/670)
   * [如何使用 Grunt 构建一个中型项目](https://github.com/seajs/seajs/issues/672)
   * [使用 spm 构建业务模块的个人经验](https://github.com/seajs/seajs/issues/690)
-
-非常欢迎大家的使用经验总结。

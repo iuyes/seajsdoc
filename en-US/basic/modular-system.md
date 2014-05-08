@@ -1,50 +1,53 @@
 ---
-name: 模块系统 
+name: Module System
 sort: 1
 ---
 
 
 [Permalink](https://github.com/seajs/seajs/issues/240 "Permalink to 模块系统 · Issue #240 · seajs/seajs · GitHub")
 
-# 模块系统 · Issue #240 · seajs/seajs · GitHub
+# Module System · Issue #240 · seajs/seajs · GitHub
 
-## 什么是系统
+## What is system?
 
-在生活和工作中，我们会接触到大量系统：自然界生态系统、计算机操作系统、软件办公系统，还有教育系统、金融系统、网络系统、理论系统等等。究竟什么是系统呢？
+There are lots of systems in our life: ecosystem, operating system, office system, network system etc. But what is a system?
 
 来看下维基百科的解释：
+Let's see the definition in wikipedia:
 
-&gt; 系统泛指由一群有关连的个体组成，根据预先编排好的规则工作，能完成个别元件不能单独完成的工作的群体。系统分为自然系统与人为系统两大类。
+&gt; A system is a set of interacting or interdependent components forming an integrated whole or a set of elements (often called 'components' ) and relationships which are different from relationships of the set or its elements to other elements or sets.
+
 
 简言之，系统有两个基本特性：
+In short, system has two features:
 
-  1. 系统由个体组成。
-  2. 个体之间有关连，按照规则协同完成任务。
+  1. Formed by components.
+  2. There are relationships between components and they fulfill the function or purpose together.
 
-系统中的个体可称之为系统成员，这样，要构建一个系统，最基本层面需要做两件事：
+To form a system at least two factor need to be set:
 
-  1. **定义系统成员**：确定成员是什么。
-  2. **约定系统通讯**：确定成员之间如何交互，遵循的规则是什么。
+  1. **define components**: decide what's the components.
+  2. **set up relationships**: decide how can the components communicate and what's the rule.
 
-只要把这两个问题描述清楚，我们就可以构建出系统。
+If we can figure out these two things, we can form a system.
 
-## 模块系统
+## Module System
 
-Sea.js 是一个适用于 Web 浏览器端的模块加载器。在 Sea.js 里，一切皆是模块，所有模块协同构建成模块系统。Sea.js 首要要解决的是模块系统的基本问题：
+`Sea.js` is a module loader for Web browser. In `Sea.js`, everything is module, all the modules formed to a module system. `Sea.js` need to solve the system's two factors:
 
-  1. 模块是什么？
-  2. 模块之间如何交互？
+  1. What's the module?
+  2. How can the module communicate?
 
-在前端开发领域，一个模块，可以是JS 模块，也可以是 CSS 模块，或是 Template 等模块。在 Sea.js 里，我们专注于 JS 模块（其他类型的模块可以转换为 JS 模块）：
+In front end development territory, a module can be a JS module, a CSS module or a Template module. In `Seaj.js`, we focus on JS module (other module can convert to JS module):
 
-  1. 模块是一段 JavaScript 代码，具有统一的基本书写格式。
-  2. 模块之间通过基本交互规则，能彼此引用，协同工作。
+  1. A module is a piece of JavaScript snippet with specific structure.
+  2. Modules can interact with each other and working together.
 
-把上面两点中提及的基本书写格式和基本交互规则描述清楚，就能构建出一个模块系统。对书写格式和交互规则的详细描述，就是模块定义规范（Module Definition Specification）。比如 CommonJS 社区的 [Modules 1.1.1][1] 规范，以及 NodeJS 的 [Modules][2] 规范，还有 RequireJS 提出的 [AMD][3] 规范等等。
+If you can correctly define the model structure and communication rule, you can form a model system. The model structure and the communication rule are Module Definition Specification, such as CommonJS's [Modules 1.1.1][1], NodeJS's [Modules][2], and RequireJS's [AMD][3] etc.
 
-Sea.js 遵循的是 [CMD][4] 规范，会在接下来的文档中详细阐述。
+`Sea.js` is following [CMD][4].
 
-## 延伸阅读
+## Further reading
 
    [1]: http://wiki.commonjs.org/wiki/Modules
    [2]: http://nodejs.org/api/modules.html

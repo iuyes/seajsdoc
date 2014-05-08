@@ -12,13 +12,11 @@ sort: 1
 
 There are lots of systems in our life: ecosystem, operating system, office system, network system etc. But what is a system?
 
-来看下维基百科的解释：
 Let's see the definition in wikipedia:
 
 &gt; A system is a set of interacting or interdependent components forming an integrated whole or a set of elements (often called 'components' ) and relationships which are different from relationships of the set or its elements to other elements or sets.
 
 
-简言之，系统有两个基本特性：
 In short, system has two features:
 
   1. Formed by components.
